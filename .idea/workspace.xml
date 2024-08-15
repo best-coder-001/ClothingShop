@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a238b093-a8bf-409c-a878-ca1c1834b179" name="Changes" comment="add urls,tasks,update models,change settings">
-      <change afterPath="$PROJECT_DIR$/docker-compuse.yml" afterDir="false" />
+    <list default="true" id="a238b093-a8bf-409c-a878-ca1c1834b179" name="Changes" comment="add celery, add dockerignore, change settings">
+      <change afterPath="$PROJECT_DIR$/backend/shop/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/users/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env.docker" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env.docker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/shop/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/shop/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/shop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/shop/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compuse.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/shop/routers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +52,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723725125820</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add celery, add dockerignore, change settings">
+      <option name="closed" value="true" />
+      <created>1723726149323</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723726149323</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +126,7 @@
     <MESSAGE value="Initial" />
     <MESSAGE value="add requirements.txt, Dockerfile" />
     <MESSAGE value="add urls,tasks,update models,change settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="add urls,tasks,update models,change settings" />
+    <MESSAGE value="add celery, add dockerignore, change settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="add celery, add dockerignore, change settings" />
   </component>
 </project>

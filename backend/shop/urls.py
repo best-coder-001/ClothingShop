@@ -1,3 +1,6 @@
-from django.urls import path
+from django.urls import path, include
+from .routers import DiscountRouter
 
-urlpatterns = []
+urlpatterns = [
+    path('v1/',include(DiscountRouter.urls))
+]

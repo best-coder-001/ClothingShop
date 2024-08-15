@@ -29,8 +29,8 @@ class Product(models.Model):
     description = models.TextField()
     price = models.FloatField()
     count = models.PositiveIntegerField()
-    photo = models.ImageField(upload_to='/products/')
+    photo = models.ImageField(upload_to='products')
 
-    bucket = models.OneToOneField(Bucket, models.SET_NULL, null=True)
-    cat = models.ForeignKey(Bucket, models.CASCADE)
-    supplier = models.ForeignKey(Bucket, models.CASCADE)
+    bucket = models.OneToOneField(Bucket, on_delete=models.SET_NULL, null=True)
+    cat = models.ForeignKey(Category,on_delete=models.CASCADE)
+    supplier = models.ForeignKey(Supplier, on_delete=models.CASCADE)
