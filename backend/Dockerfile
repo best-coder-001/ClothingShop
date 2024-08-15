@@ -1,4 +1,5 @@
-FROM ubuntu:latest
-LABEL authors="User"
+FROM python:3.11-slim
 
-ENTRYPOINT ["top", "-b"]
+RUN mkdir "ClothingShop"
+COPY . backend
+RUN pip install -r requirements.txt
