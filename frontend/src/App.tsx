@@ -1,22 +1,17 @@
-import { useEffect, useState } from "react"
-type DType = {
-  data: {},
-}
+import {Routes,Route} from 'react-router-dom'
+
+import HomeView from "./pages/HomeView"
+import SignInView from "./pages/SignInView"
+import SignupView from "./pages/SignupView"
 
 function App() {
-  const [data, setData] = useState<DType>({data: {}})
-
-
-  useEffect(() => {
-    fetch("http://127.0.0.1:8000/")
-      .then(res => res.json())
-      .then(res => console.log(res))
-      .catch(error => console.log(error))
-  },[data])
-
+  
   return (
-    <>
-    </>
+    <Routes>
+      <Route path="/" element={<HomeView />}></Route>
+      <Route path="/sign-in" element={<SignInView />}></Route>
+      <Route path="/signup" element={<SignupView />}></Route>
+    </Routes>
   )
 }
 

@@ -19,11 +19,12 @@ from django.contrib import admin
 from django.urls import path, include
 
 from django.conf import settings
+
 from shop.views import echo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',echo),
+    path('', echo),
     path('shop/', include('shop.urls')),
     path('users/', include('users.urls'))
 ]
