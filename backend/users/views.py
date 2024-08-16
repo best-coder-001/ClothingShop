@@ -12,3 +12,4 @@ class CreateUserAPIView(generics.CreateAPIView):
 class UpdateUserAPIView(generics.UpdateAPIView):
     queryset = User.objects.all()
     serializer_class = UserModelSerializer
+    permission_classes = [permissions.IsAuthenticated]
