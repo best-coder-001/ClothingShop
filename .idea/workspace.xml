@@ -4,33 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a238b093-a8bf-409c-a878-ca1c1834b179" name="Changes" comment="change signup in frontend">
-      <change afterPath="$PROJECT_DIR$/conf/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env.docker" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env.docker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/shop/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/shop/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/shop/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/shop/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/shop/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/shop/tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/shop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/shop/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/users/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomeView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomeView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/SignInView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/SignInView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/SignupView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/SignupView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
+    <list default="true" id="a238b093-a8bf-409c-a878-ca1c1834b179" name="Changes" comment="add nginx">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,10 +125,33 @@
       <option name="project" value="LOCAL" />
       <updated>1723834827230</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add nginx">
+      <option name="closed" value="true" />
+      <created>1724838143016</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724838143016</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -170,6 +168,13 @@
                     <value>
                       <list>
                         <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
                       </list>
                     </value>
                   </entry>
@@ -190,6 +195,7 @@
     <MESSAGE value="add CORS for backend, add api endpoints, JWT Auth" />
     <MESSAGE value="change frontend, add fix to user model" />
     <MESSAGE value="change signup in frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="change signup in frontend" />
+    <MESSAGE value="add nginx" />
+    <option name="LAST_COMMIT_MESSAGE" value="add nginx" />
   </component>
 </project>
