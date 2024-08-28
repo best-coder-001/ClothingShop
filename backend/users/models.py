@@ -4,7 +4,7 @@ from django.contrib.auth.models import AbstractUser
 
 class User(AbstractUser):
     updated_at = models.DateTimeField(auto_now=True)
-    photo = models.ImageField(upload_to='users',null=True)
+    photo = models.ImageField(upload_to='users', null=True)
 
 
 class Profile(models.Model):

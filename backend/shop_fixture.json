@@ -1,0 +1,347 @@
+[
+{
+  "model": "shop.category",
+  "pk": 1,
+  "fields": {
+    "name": "Casuals",
+    "description": "Embrace effortless style with our Casual Wear Collection. From laid-back tees and comfy joggers to easygoing hoodies and relaxed shorts, our casual clothing is perfect for everyday wear. Enjoy comfort and versatility with pieces that seamlessly fit into your daily routine."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 2,
+  "fields": {
+    "name": "Jeans",
+    "description": "Upgrade your wardrobe with our Stylish Denim Jeans. Crafted from high-quality denim, these jeans offer both comfort and durability. Featuring a modern fit with classic styling, they are versatile enough for any occasion, from casual outings to relaxed workdays. Available in various washes and cuts to suit your personal style."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 3,
+  "fields": {
+    "name": "Underwear",
+    "description": "Experience everyday comfort with our Comfortable Underwear Essentials. Made from soft, breathable fabrics, these underwear pieces are designed for a perfect fit and all-day wear. Choose from a variety of styles and colors to ensure you have the perfect foundation for every outfit."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 4,
+  "fields": {
+    "name": "Sportswear",
+    "description": "Enhance your workout with our Performance Sportswear. Designed with advanced moisture-wicking fabrics and ergonomic fits, this sportswear collection provides optimal support and comfort during your exercise routines. From high-impact sports bras to flexible leggings, gear up with clothing that moves with you."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 5,
+  "fields": {
+    "name": "Outerwear",
+    "description": "Stay stylish and protected with our Trendy Outerwear collection. Featuring a variety of designs, from sleek jackets to cozy coats, our outerwear is crafted from high-quality materials to keep you warm and fashionable. Perfect for layering over your favorite outfits during colder months."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 7,
+  "fields": {
+    "name": "Formal clothes",
+    "description": "Make a lasting impression with our Elegant Formal Clothes. This collection includes sophisticated suits, dresses, and accessories designed for formal events and special occasions. Made with luxurious fabrics and meticulous craftsmanship, our formal wear ensures you look your best from every angle."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 8,
+  "fields": {
+    "name": "Swimwear",
+    "description": "Dive into summer with our Vibrant Swimwear collection. Featuring a range of stylish swimsuits, bikinis, and cover-ups, our swimwear is designed for both fashion and function. Made from high-quality, quick-dry materials, you'll be ready for poolside relaxation or beachside fun."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 9,
+  "fields": {
+    "name": "Dress",
+    "description": "Discover timeless elegance with our Classic Dress Collection. Featuring a range of styles from sophisticated sheath dresses to flowing maxi dresses, each piece is designed to enhance your silhouette and ensure you look polished and graceful for any occasion."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 10,
+  "fields": {
+    "name": "Uniform",
+    "description": "Equip your team with our Professional Uniforms, designed for both style and functionality. Our collection includes a variety of workwear options that meet industry standards while ensuring comfort and durability. Perfect for creating a cohesive and professional appearance in any work environment."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 11,
+  "fields": {
+    "name": "Trainers",
+    "description": "Step up your shoe game with our Trendy Trainers. Combining contemporary design with superior comfort, these trainers are perfect for both athletic and casual wear. Choose from a range of styles and colors to find the perfect pair that complements your active lifestyle."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 12,
+  "fields": {
+    "name": "Sweaters",
+    "description": "dverbebe"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 13,
+  "fields": {
+    "name": "T-Shirt",
+    "description": "Refresh your basics with our Classic T-Shirts. Crafted from soft, breathable cotton, these tees offer a comfortable fit and timeless style. Available in an array of colors and designs, theyТre perfect for layering or wearing solo for a casual, effortless look."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 14,
+  "fields": {
+    "name": "Skirt",
+    "description": "Add a touch of sophistication to your wardrobe with our Elegant and Versatile Skirts. From sleek pencil skirts to flowing maxi styles, our collection offers a variety of designs to suit any occasion. Crafted from high-quality fabrics, these skirts combine style and comfort for a polished look."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 15,
+  "fields": {
+    "name": "Boots",
+    "description": "Complete your look with our Stylish Boots, designed for both fashion and function. Whether youТre seeking rugged durability or sleek sophistication, our collection offers a variety of styles including ankle boots, knee-highs, and more. Made from premium materials, these boots are perfect for any occasion."
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 16,
+  "fields": {
+    "name": "Pullovers",
+    "description": "Stay warm and cozy with our range of Cozy Pullovers. Made from soft, comfortable fabrics, these pullovers offer a relaxed fit thatТs perfect for layering during cooler weather. Available in a variety of colors and styles, theyТre ideal for casual outings and laid-back days."
+  }
+},
+{
+  "model": "shop.supplier",
+  "pk": 1,
+  "fields": {
+    "name": "Premium Fashion Distributor",
+    "description": "Discover the advantage of working with our Premium Fashion Distributor. Specializing in high-end and fashionable clothing lines, we provide an extensive selection of apparel that caters to various styles and preferences. Our streamlined supply chain and dedicated customer support team ensure efficient order processing and reliable delivery, making us the perfect partner for elevating your store's offerings. Elevate your inventory with our premium fashion products and watch your sales soar."
+  }
+},
+{
+  "model": "shop.discount",
+  "pk": 2,
+  "fields": {
+    "name": "Test",
+    "description": "Test",
+    "percent": 5.0
+  }
+},
+{
+  "model": "shop.discount",
+  "pk": 3,
+  "fields": {
+    "name": "Test2",
+    "description": "vever",
+    "percent": 12.0
+  }
+},
+{
+  "model": "shop.discount",
+  "pk": 4,
+  "fields": {
+    "name": "e2vwe",
+    "description": "vwewvewe",
+    "percent": 42.0
+  }
+},
+{
+  "model": "shop.discount",
+  "pk": 5,
+  "fields": {
+    "name": "wevwe",
+    "description": "vwvw",
+    "percent": 12.5
+  }
+},
+{
+  "model": "shop.discount",
+  "pk": 6,
+  "fields": {
+    "name": "vwvw",
+    "description": "vevwevw",
+    "percent": 75.0
+  }
+},
+{
+  "model": "shop.discount",
+  "pk": 7,
+  "fields": {
+    "name": "vwevwev",
+    "description": "cwecw",
+    "percent": 78.0
+  }
+},
+{
+  "model": "shop.discount",
+  "pk": 8,
+  "fields": {
+    "name": "vwevw",
+    "description": "vewvwevw",
+    "percent": 85.0
+  }
+},
+{
+  "model": "shop.discount",
+  "pk": 9,
+  "fields": {
+    "name": "vevwevw",
+    "description": "vewvw",
+    "percent": 89.0
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 1,
+  "fields": {
+    "name": "Cozy Fleece Pullover",
+    "description": "Our Cozy Fleece Pullover is perfect for chilly days when you want to stay warm and relaxed. Made from soft fleece material, this pullover features a half-zip front and a relaxed fit, making it ideal for lounging at home or running errands on a cool day.",
+    "price": 47.0,
+    "count": 42,
+    "photo": "products/Cozy_Fleece_Pullover.jpg",
+    "rate": 4.0,
+    "size": "XL",
+    "discount": 2,
+    "bucket": null,
+    "supplier": 1,
+    "cat": [
+      16
+    ]
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 2,
+  "fields": {
+    "name": "Trendy High-Waisted Skirt",
+    "description": "Embrace the latest fashion with our Trendy High-Waisted Skirt. Featuring a flattering high-rise waist and a flowy, A-line cut, this skirt adds a touch of elegance to any outfit. Its versatile design makes it suitable for both casual and semi-formal occasions.",
+    "price": 42.5,
+    "count": 2,
+    "photo": "products/skirt.jfif",
+    "rate": 3.0,
+    "size": "XL",
+    "discount": 2,
+    "bucket": null,
+    "supplier": 1,
+    "cat": [
+      14
+    ]
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 3,
+  "fields": {
+    "name": "Stylish Leather Boots",
+    "description": "Step out in style with our Stylish Leather Boots. Made from high-quality genuine leather, these boots feature a sleek design with a comfortable, padded insole and a sturdy heel. Perfect for adding a touch of sophistication to your outfit, theyТre a must-have for any fashion-forward wardrobe.",
+    "price": 119.99,
+    "count": 13,
+    "photo": "products/Stylish_Leather_Boots.jpg",
+    "rate": 4.0,
+    "size": "XXL,X,XL",
+    "discount": 2,
+    "bucket": null,
+    "supplier": 1,
+    "cat": [
+      15,
+      1
+    ]
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 4,
+  "fields": {
+    "name": "Cozy Chunky Knit Sweater",
+    "description": "Stay warm and stylish with our Cozy Chunky Knit Sweater. Crafted from thick, plush yarn, this sweater provides maximum warmth and comfort. The oversized fit and ribbed cuffs add to its cozy appeal, making it a great choice for chilly days and casual weekends.",
+    "price": 64.99,
+    "count": 20,
+    "photo": "products/green-front-sweater_BuxkWeT.jpg",
+    "rate": 4.2,
+    "size": "L,XL",
+    "discount": 9,
+    "bucket": null,
+    "supplier": 1,
+    "cat": [
+      12
+    ]
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 5,
+  "fields": {
+    "name": "Elegant Black Dress",
+    "description": "Make a statement with our Elegant Black Dress, designed for both sophistication and versatility. This classic dress features a flattering silhouette with a fitted bodice and a flowing skirt that moves gracefully with every step. Perfect for formal occasions or a night out, its sleek design is complemented by subtle detailing, ensuring you look effortlessly chic.",
+    "price": 79.99,
+    "count": 10,
+    "photo": "products/Elegant_Black_Dress.png",
+    "rate": 3.0,
+    "size": "L",
+    "discount": 3,
+    "bucket": null,
+    "supplier": 1,
+    "cat": [
+      9,
+      3
+    ]
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 6,
+  "fields": {
+    "name": "Classic Green Sweater",
+    "description": "Elevate your wardrobe with our Classic Green Sweater, a perfect blend of comfort and style. Crafted from premium, soft-knit fabric, this sweater offers a cozy fit that keeps you warm during chilly days. The timeless green hue complements any outfit, making it a versatile addition to your collection. Whether you're layering it over a shirt for a casual look or dressing it up with a jacket, this sweater is designed for both comfort and elegance.",
+    "price": 49.99,
+    "count": 45,
+    "photo": "products/Classic_Green_Sweater.jfif",
+    "rate": 2.0,
+    "size": "XL",
+    "discount": 8,
+    "bucket": null,
+    "supplier": 1,
+    "cat": [
+      12,
+      1
+    ]
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 7,
+  "fields": {
+    "name": "Soft Cotton T-Shirt",
+    "description": "Our Soft Cotton T-Shirt is the ultimate staple for any wardrobe. Made from 100% premium cotton, it offers a soft, breathable fit thatТs perfect for everyday wear. Available in a variety of colors, this tee pairs well with jeans, shorts, or skirts for a casual, effortless look.",
+    "price": 29.99,
+    "count": 6,
+    "photo": "products/Soft_Cotton_T-Shirt.jfif",
+    "rate": 5.0,
+    "size": "XL",
+    "discount": 2,
+    "bucket": null,
+    "supplier": 1,
+    "cat": [
+      13
+    ]
+  }
+},
+{
+  "model": "shop.contact",
+  "pk": 45,
+  "fields": {
+    "fullname": "vwoberiopbrbe",
+    "email": "chingiz605@gmail.com",
+    "opinion": "erbrtgnt4ebwrdbwetne"
+  }
+}
+]

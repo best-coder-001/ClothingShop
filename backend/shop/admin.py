@@ -24,3 +24,8 @@ class BucketAdminModel(admin.ModelAdmin):
 @admin.register(Supplier)
 class SupplierAdminModel(admin.ModelAdmin):
     pass
+
+
+@admin.register(Contact)
+class ContactAdminModel(admin.ModelAdmin):
+    pass

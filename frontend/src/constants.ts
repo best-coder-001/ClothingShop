@@ -1,15 +1,7 @@
-enum APIConstants {
-    API_URL = 'http://localhost:8000/',
-    USERS = 'users/',
+export const API_URL = 'http://localhost:8000/'
 
-    USERS_REGISTER = `${USERS}register/`,
-    USERS_TOKEN = `${USERS}token/`,
-    USERS_TOKEN_REFRESH = `${USERS_TOKEN}refresh/`,
-    USERS_TOKEN_VERIFY = `${USERS}${USERS_TOKEN}verify/`
+export const SHOP = 'shop/'
+export const PRODUCTS = `${SHOP}products/`
 
-    
-    
-}
-
-export default APIConstants
-
+export const ACCESS_TOKEN = 'access'
+export const REFRESH_TOKEN = 'refresh'
